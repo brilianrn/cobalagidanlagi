@@ -1,0 +1,161 @@
+/* PADA HALAMAN index.html */
+#index{
+    background-image: url('./background.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-align: center;
+}
+
+#index #head{
+    background-color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+}
+
+#index #head h1{
+    margin: 0;
+    font-family: 'Arvo', serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#index #head h3{
+    padding-bottom: 10px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#index #tombol{
+    margin-top: 35px;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 20px;
+    /* background-color: greenyellow; */
+}
+
+#index #aturan{
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+#index #aturan #judul-aturan{
+    margin: 0;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#index #aturan .isi-aturan{
+    font-size: 30px;
+    text-align: justify;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+
+/* PADA HALAMAN game.html */
+#game{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 105, 89);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#game h1{
+    text-align: center;
+}
+
+#game .box{
+    border: 1px solid rgb(30, 105, 89);
+}
+
+#game .box #nomer-urut{
+    border: 1px solid rgb(30, 105, 89);
+    text-align: left;
+}
+
+#game .box #box-soal{
+    border: 1px solid rgb(30, 105, 89);
+}
+
+#game .box #box-soal #angka-pertama{
+    display: inline;
+}
+
+#game .box #box-soal #plus{
+    display: inline;
+}
+
+#game .box #box-soal #sama-dengan{
+    display: inline;
+}
+
+#game .box #box-soal #angka-kedua{
+    display: inline;
+}
+
+#game .box #box-deret-angka{
+    border: 1px solid rgb(30, 105, 89);
+}
+
+#game .box #box-deret-angka #angka0{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka1{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka2{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka3{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka4{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka5{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka6{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka7{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka8{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-deret-angka #angka9{
+    display: inline;
+    font-size: 20px;
+}
+
+#game .box #box-jawaban{
+    border: 1px solid rgb(30, 105, 89);
+}
